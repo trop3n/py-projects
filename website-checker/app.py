@@ -6,5 +6,5 @@ if url.startswith("https://"):
 elif url.startswith("http://"):
     print("This website uses HTTP 󱙱 (insecure)")
 else:
-    print("The URL entered did not have an http(s) specification.")
+    print("This does not look like a complete URL ")
 
